@@ -1,1 +1,4 @@
-print ("Hello world")
+import webbrowser
+
+url = "https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1"
+webbrowser.open(url)
